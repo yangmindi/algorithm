@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30ca30b7-65d3-438e-bc8b-277eb9532ee5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/atguigu/sort/InsertSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atguigu/sort/ShellSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SparseArray/com/atguigu/sort/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SparseArray/com/atguigu/sort/BubbleSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SparseArray/com/atguigu/sort/SelectSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SparseArray/com/atguigu/sort/SelectSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/sort/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/sort/SelectSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/sort/SelectSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/sort/ShellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/sort/ShellSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -110,8 +104,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/atguigu/sort/ShellSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+            <state relative-caret-position="231">
+              <caret line="38" column="70" selection-start-line="38" selection-start-column="70" selection-end-line="38" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -119,8 +113,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/atguigu/sort/InsertSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-130">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            <state relative-caret-position="338">
+              <caret line="39" selection-start-line="39" selection-end-line="40" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -169,9 +163,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
     <option name="width" value="977" />
     <option name="height" value="1038" />
   </component>
@@ -398,25 +391,24 @@
       <workItem from="1573870560651" duration="6029000" />
       <workItem from="1573997644913" duration="2872000" />
       <workItem from="1574004478324" duration="45000" />
-      <workItem from="1574164830759" duration="2924000" />
+      <workItem from="1574164830759" duration="4162000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44300000" />
+    <option name="totallyTimeSpent" value="45538000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-6" y="0" width="781" height="830" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.4273859" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.4269437" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.04957507" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16332377" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34560907" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -425,7 +417,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.31303117" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.45892352" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3281471" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -437,14 +429,14 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4273859" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4269437" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39684814" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2181303" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34560907" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -453,7 +445,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.31303117" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.45892352" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3281471" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -555,13 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/sort/InsertSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-130">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/atguigu/sort/SelectSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -572,10 +557,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/sort/InsertSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="39" selection-start-line="39" selection-end-line="40" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/atguigu/sort/ShellSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+        <state relative-caret-position="231">
+          <caret line="38" column="70" selection-start-line="38" selection-start-column="70" selection-end-line="38" selection-end-column="70" />
         </state>
       </provider>
     </entry>
