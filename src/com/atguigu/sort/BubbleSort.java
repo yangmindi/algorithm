@@ -6,8 +6,8 @@ import java.util.Date;
 
 public class BubbleSort {
     public static void main(String[] args) {
-        int arr[] = {3,9,-1,10,-2};
-        bubboSort(arr);
+        int arr[] = {3, 9, -1, 10, -2};
+        bubbosort(arr);
         System.out.println("排序之后");
         System.out.println(Arrays.toString(arr));
 
@@ -28,7 +28,7 @@ public class BubbleSort {
 
     }
 
-    public static void bubboSort(int []arr){
+    public static void bubboSort(int[] arr) {
 //        int temp;
 //        boolean flag = false;
 //        for(int i=0; i<arr.length-1; i++){
@@ -50,21 +50,37 @@ public class BubbleSort {
 
 
         int temp;
-        for(int i=0; i<arr.length; i++){
+        for (int i = 0; i < arr.length; i++) {
             boolean flag = false;
-            for(int j=0; j<arr.length-i-1; j++){
-                if(arr[j] > arr[j+1]){
+            for (int j = 0; j < arr.length - i - 1; j++) {
+                if (arr[j] > arr[j + 1]) {
                     flag = true;
                     temp = arr[j];
-                    arr[j] = arr[j+1];
-                    arr[j+1] = temp;
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
                 }
             }
-            if(!flag){
+            if (!flag) {
                 break;
             }
         }
-
-
     }
+
+
+    public static void bubbosort(int[] arr) {
+        if (arr == null || arr.length <= 0) {
+            return;
+        }
+
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr.length - i - 1; j++) {
+                if (arr[j] > arr[j + 1]) {
+                    int temp = arr[j+1];
+                    arr[j+1] = arr[j];
+                    arr[j] = temp;
+                }
+            }
+        }
+    }
+
 }

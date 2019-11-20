@@ -6,7 +6,7 @@ public class InsertSort {
     static int[] arr = {101, 34, 119, 1, -1, 89};
 
     public static void main(String[] args) {
-        insertSort(arr);
+        insertSort1(arr);
     }
 
     public static void insertSort(int[] arr) {
