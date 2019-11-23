@@ -52,13 +52,12 @@ public class SelectSort {
             int min = arr[i];
             int minIndex = i;
             for (int j = i + 1; j < arr.length; j++) {
-                if(min > arr[j]){
+                if (min > arr[j]) {
                     min = arr[j];
                     minIndex = j;
                 }
             }
-
-            if(minIndex != i){
+            if (minIndex != i) {
                 arr[minIndex] = arr[i];
                 arr[i] = min;
             }
