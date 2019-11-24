@@ -38,21 +38,22 @@ public class QuickSort {
     public static void quicksort01(int[] a, int start, int end) {
         int left = start;
         int right = end;
-        boolean flag = true;
-        if (left > right) {
-            return;
+        if(left > right){
+            return ;
         }
-        while (left < right) {
-            if (a[left] > a[right]) {
+        boolean flag = false;
+        while(left < right){
+            if(a[left] > a[right]){
                 int temp = a[left];
                 a[left] = a[right];
                 a[right] = temp;
                 flag = !flag;
             }
+
             if(flag){
-                right--;
-            }else {
                 left++;
+            }else {
+                right--;
             }
         }
         left--;

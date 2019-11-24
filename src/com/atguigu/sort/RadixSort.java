@@ -4,27 +4,27 @@ import java.util.Arrays;
 
 public class RadixSort {
     public static void main(String[] args) {
-        int[] arr = {53,3,542,748,14,214};
-        radixSort(arr);
+        int[] arr = {53, 3, 542, 748, 14, 214};
+        radixSort01(arr);
     }
 
-    public static void radixSort(int[] arr){
+    public static void radixSort(int[] arr) {
         int max = arr[0];
-        for(int i=1; i<arr.length; i++){
-            if(arr[i]>max){
-               max = arr[i];
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] > max) {
+                max = arr[i];
             }
         }
         //得到最大的是几位数
-        int maxLength = (max+"").length();
+        int maxLength = (max + "").length();
 
-        for(int i=0,n=1; i<maxLength; i++,n*=10){
+        for (int i = 0, n = 1; i < maxLength; i++, n *= 10) {
             int[][] bucket = new int[10][arr.length];
 
             int[] bucketElementCounts = new int[10];
 
             //第1轮（针对每个元素的个位进行处理）
-            for(int j=0; j<arr.length; j++){
+            for (int j = 0; j < arr.length; j++) {
                 //取出每个元素的个位的值
                 int digitOfElement = arr[j] / n % 10;
                 //放到对应的桶中
@@ -34,10 +34,10 @@ public class RadixSort {
             //按照桶的顺序放回原来的数组
             int index = 0;
             //遍历每一个桶，并将桶中的数据，放入到原数组
-            for(int k=0; k<bucketElementCounts.length; k++){
+            for (int k = 0; k < bucketElementCounts.length; k++) {
                 //如果桶中有数据，才放到原数组
-                if(bucketElementCounts[k] != 0){
-                    for(int l=0; l<bucketElementCounts[k]; l++){
+                if (bucketElementCounts[k] != 0) {
+                    for (int l = 0; l < bucketElementCounts[k]; l++) {
                         //取出元素放到arr
                         arr[index++] = bucket[k][l];
                     }
@@ -45,8 +45,43 @@ public class RadixSort {
                 //每一轮处理后，都需要将每个bucketElementCount[k] = 0
                 bucketElementCounts[k] = 0;
             }
-            System.out.println("第"+i+"轮，排序后数组:"+ Arrays.toString(arr));
+            System.out.println("第" + i + "轮，排序后数组:" + Arrays.toString(arr));
         }
 
     }
+
+    public static void radixSort01(int[] arr) {
+
+        int max = arr[0];
+        for (int i = 1; i < arr.length; i++) {
+            if (max < arr[i]) {
+                max = arr[i];
+            }
+        }
+
+        int maxLength = (max + "").length();
+
+        int[][] buctet = new int[10][arr.length];
+        int[] bucketCounts = new int[10];
+        //个位
+        for (int l = 0, n = 1; l < maxLength; l++, n *= 10) {
+            for (int i = 0; i < arr.length; i++) {
+                int temp = arr[i] / n % 10;
+                buctet[temp][bucketCounts[temp]] = arr[i];
+                bucketCounts[temp]++;
+            }
+
+            int index = 0;
+            for (int i = 0; i < bucketCounts.length; i++) {
+                if (bucketCounts[i] != 0) {
+                    for (int j = 0; j < bucketCounts[i]; j++) {
+                        arr[index++] = buctet[i][j];
+                    }
+                }
+                bucketCounts[i] = 0;
+            }
+            System.out.println("第" + l + "轮，排序后数组:" + Arrays.toString(arr));
+        }
+    }
+
 }
