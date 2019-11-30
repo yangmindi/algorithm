@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30ca30b7-65d3-438e-bc8b-277eb9532ee5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/atguigu/linkedlist/SingleLinkedListDemo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atguigu/tree/BinaryTreeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu/tree/BinaryTreeFindDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SparseArray/com/atguigu/sort/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SparseArray/com/atguigu/sort/BubbleSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SparseArray/com/atguigu/sort/InsertSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SparseArray/com/atguigu/sort/InsertSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SparseArray/com/atguigu/sort/MergetSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SparseArray/com/atguigu/sort/MergetSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SparseArray/com/atguigu/sort/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SparseArray/com/atguigu/sort/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SparseArray/com/atguigu/sort/RadixSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SparseArray/com/atguigu/sort/RadixSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SparseArray/com/atguigu/sort/SelectSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SparseArray/com/atguigu/sort/SelectSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SparseArray/com/atguigu/sort/ShellSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SparseArray/com/atguigu/sort/ShellSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/sort/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/sort/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/sort/InsertSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/sort/MergetSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/sort/MergetSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/sort/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/sort/RadixSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/sort/RadixSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/sort/SelectSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/sort/SelectSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/sort/ShellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/sort/ShellSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,15 +35,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/atguigu/search/InsertValueSearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/atguigu/linkedlist/SingleLinkedListDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
@@ -73,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/atguigu/linkedlist/SingleLinkedListDemo01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="130">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#723#724#0" expanded="true" />
@@ -84,29 +60,42 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/atguigu/tree/BinaryTreeDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="579">
-              <caret line="140" column="30" selection-start-line="140" selection-start-column="30" selection-end-line="140" selection-end-column="30" />
+            <state relative-caret-position="130">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
               <folding>
+                <element signature="e#113#114#0" expanded="true" />
                 <element signature="e#145#146#0" expanded="true" />
-                <element signature="e#265#266#0" expanded="true" />
-                <element signature="e#290#291#0" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
-                <element signature="e#351#352#0" expanded="true" />
-                <element signature="e#382#383#0" expanded="true" />
-                <element signature="e#409#410#0" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
-                <element signature="e#481#482#0" expanded="true" />
-                <element signature="e#514#515#0" expanded="true" />
-                <element signature="e#541#542#0" expanded="true" />
-                <element signature="e#583#584#0" expanded="true" />
-                <element signature="e#615#616#0" expanded="true" />
-                <element signature="e#649#650#0" expanded="true" />
-                <element signature="e#677#678#0" expanded="true" />
-                <element signature="e#721#722#0" expanded="true" />
-                <element signature="e#755#756#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/atguigu/tree/BinaryTreeFindDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="566">
+              <caret line="226" column="8" selection-start-line="226" selection-start-column="8" selection-end-line="226" selection-end-column="8" />
+              <folding>
+                <element signature="e#160#161#0" expanded="true" />
+                <element signature="e#285#286#0" expanded="true" />
+                <element signature="e#310#311#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+                <element signature="e#429#430#0" expanded="true" />
+                <element signature="e#469#470#0" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#566#567#0" expanded="true" />
+                <element signature="e#613#614#0" expanded="true" />
+                <element signature="e#645#646#0" expanded="true" />
+                <element signature="e#684#685#0" expanded="true" />
+                <element signature="e#712#713#0" expanded="true" />
+                <element signature="e#761#762#0" expanded="true" />
+                <element signature="e#795#796#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -221,12 +210,13 @@
         <option value="$PROJECT_DIR$/src/com/atguigu/linkedlist/test.java" />
         <option value="$PROJECT_DIR$/src/com/atguigu/linkedlist/SingleLinkedListDemo01.java" />
         <option value="$PROJECT_DIR$/src/com/atguigu/tree/BinaryTreeDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/atguigu/tree/BinaryTreeFindDemo.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="width" value="1113" />
+    <option name="width" value="977" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -235,6 +225,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -273,7 +264,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -303,7 +293,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinaryTreeDemo">
+  <component name="RunManager" selected="Application.BinaryTreeFindDemo">
     <configuration name="BinaryTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="MAIN_CLASS_NAME" value="com.atguigu.tree.BinaryTreeDemo" />
@@ -319,14 +309,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="BinaryTreeFindDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.sort.SelectSort" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.tree.BinaryTreeFindDemo" />
       <module name="SparseArray" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.sort.*" />
+          <option name="PATTERN" value="com.atguigu.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -414,11 +404,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryTreeFindDemo" />
         <item itemvalue="Application.BinaryTreeDemo" />
         <item itemvalue="Application.SingleLinkedListDemo01" />
         <item itemvalue="Application.SingleLinkedListDemo" />
         <item itemvalue="Application.ShellSort" />
-        <item itemvalue="Application.SelectSort" />
       </list>
     </recent_temporary>
   </component>
@@ -462,34 +452,44 @@
       <workItem from="1574861913424" duration="1499000" />
       <workItem from="1575008657158" duration="10309000" />
       <workItem from="1575038246357" duration="686000" />
-      <workItem from="1575107427587" duration="1798000" />
+      <workItem from="1575107427587" duration="2387000" />
+      <workItem from="1575113220049" duration="2837000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89226000" />
+    <option name="totallyTimeSpent" value="92652000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="890" height="830" extended-state="0" />
+    <frame x="-6" y="0" width="781" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.67814374" weight="0.36298078" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.67814374" weight="0.41770402" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.3218563" side_tool="true" weight="0.395574" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.042979944" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45415473" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34560907" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="LuaCheck" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32904148" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="LuaCheck" order="8" weight="0.3295129" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32904148" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.30736545" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.042918455" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3281471" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -501,23 +501,23 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.67814374" visible="true" weight="0.36298078" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.67814374" visible="true" weight="0.41770402" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.3218563" side_tool="true" weight="0.395574" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.042979944" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45415473" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34560907" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="LuaCheck" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32904148" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="LuaCheck" order="8" weight="0.3295129" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32904148" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.30736545" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.042918455" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3281471" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -628,6 +628,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/linkedlist/SingleLinkedListDemo01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/atguigu/queue/ArrayQueueDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1534">
@@ -686,40 +698,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/linkedlist/SingleLinkedListDemo01.java">
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/tree/BinaryTreeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        <state relative-caret-position="130">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-            <element signature="e#750#751#0" expanded="true" />
+            <element signature="e#113#114#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/tree/BinaryTreeDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/tree/BinaryTreeFindDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="140" column="30" selection-start-line="140" selection-start-column="30" selection-end-line="140" selection-end-column="30" />
+        <state relative-caret-position="566">
+          <caret line="226" column="8" selection-start-line="226" selection-start-column="8" selection-end-line="226" selection-end-column="8" />
           <folding>
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
           </folding>
         </state>
       </provider>
