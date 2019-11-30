@@ -11,19 +11,28 @@ public class MergetSort {
     }
 
     //拆分
-    public static void mergetSort(int[] arr, int left, int right, int[] temp) {
+    /*public static void mergetSort(int[] arr, int left, int right, int[] temp) {
         int i = left;
         int j = right;
         int mid = (left + right) / 2;
         if (left < right) {
             mergetSort(arr, left, mid, temp);
             mergetSort(arr, mid + 1, right, temp);
-            mergetsort(arr, left, mid, right, temp);
+            mergetsort01(arr, left, mid, right, temp);
+        }
+    }*/
+
+    public static void mergetSort(int[] arr, int left, int right, int[] temp) {
+        int mid = (left + right) / 2;
+        if (left < right) {
+            mergetSort(arr, left, mid, temp);
+            mergetSort(arr, mid + 1, right, temp);
+            mergetsort01(arr, left, mid, right, temp);
         }
     }
 
     //合并
-    public static void mergetsort(int[] arr, int left, int mid, int right, int[] temp) {
+    /*public static void mergetsort(int[] arr, int left, int mid, int right, int[] temp) {
         int i = left;
         int j = mid + 1;
         int t = 0;
@@ -61,6 +70,32 @@ public class MergetSort {
             arr[pleft] = temp[t];
             t++;
             pleft++;
+        }
+    }*/
+
+    public static void mergetsort01(int[] arr, int left, int mid, int right, int[] temp) {
+        int i = left;
+        int j = mid + 1;
+        int index = 0;
+        while (i <= mid && j <= right) {
+            if (arr[i] < arr[j]) {
+                temp[index++] = arr[i++];
+            } else {
+                temp[index++] = arr[j++];
+            }
+        }
+
+        while (i <= mid) {
+            temp[index++] = arr[i++];
+        }
+
+        while (j <= right) {
+            temp[index++] = arr[j++];
+        }
+
+        index = 0;
+        while (left <= right) {
+            arr[left++] = temp[index++];
         }
     }
 }

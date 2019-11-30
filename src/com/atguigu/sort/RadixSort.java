@@ -52,30 +52,28 @@ public class RadixSort {
 
     public static void radixSort01(int[] arr) {
 
-        int max = arr[0];
-        for (int i = 1; i < arr.length; i++) {
-            if (max < arr[i]) {
-                max = arr[i];
+        int maxLength = 0;
+        for (int i = 0; i < arr.length; i++) {
+            if (maxLength < (arr[i] + "").length()) {
+                maxLength = (arr[i] + "").length();
             }
         }
 
-        int maxLength = (max + "").length();
-
-        int[][] buctet = new int[10][arr.length];
+        int[][] bucket = new int[10][arr.length];
         int[] bucketCounts = new int[10];
-        //个位
+
         for (int l = 0, n = 1; l < maxLength; l++, n *= 10) {
+
             for (int i = 0; i < arr.length; i++) {
                 int temp = arr[i] / n % 10;
-                buctet[temp][bucketCounts[temp]] = arr[i];
-                bucketCounts[temp]++;
+                bucket[temp][bucketCounts[temp]++] = arr[i];
             }
 
             int index = 0;
-            for (int i = 0; i < bucketCounts.length; i++) {
+            for (int i = 0; i < 10; i++) {
                 if (bucketCounts[i] != 0) {
                     for (int j = 0; j < bucketCounts[i]; j++) {
-                        arr[index++] = buctet[i][j];
+                        arr[index++] = bucket[i][j];
                     }
                 }
                 bucketCounts[i] = 0;
