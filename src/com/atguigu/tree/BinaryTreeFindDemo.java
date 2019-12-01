@@ -1,5 +1,7 @@
 package com.atguigu.tree;
 
+import java.util.Stack;
+
 class BinaryTree_Find {
     private HeroNode_Find root;
 
@@ -57,6 +59,20 @@ class BinaryTree_Find {
         }
     }
 
+    //==========删除==========
+    public void delNode(int no){
+        if(root != null){
+            if(root.getNo() == no){
+                root = null;
+                return ;
+            }else {
+                root.delNode(no);
+            }
+        }else {
+            System.out.println("空树，不能删除");
+        }
+    }
+
 }
 
 class HeroNode_Find {
@@ -110,6 +126,27 @@ class HeroNode_Find {
         this.right = right;
     }
 
+
+    //==========删除==========
+    public void delNode(int no) {
+        if (this.left != null && this.left.no == no) {
+            this.left = null;
+            return ;
+        }
+        if(this.right != null && this.right.no == no){
+            this.right = null;
+            return ;
+        }
+        if(this.left != null){
+            this.left.delNode(no);
+        }
+        if(this.right != null){
+            this.right.delNode(no);
+        }
+    }
+
+
+    //==========
     public void preOrder() {
         System.out.println(this);
         if (this.left != null) {
@@ -221,25 +258,29 @@ public class BinaryTreeFindDemo {
         node3.setLeft(node5);
 
 
-        System.out.println("前序遍历");
-        binaryTree.preOrder();
-
-        System.out.println("中序遍历");
-        binaryTree.infixOrder();
-
-        System.out.println("后序遍历");
-        binaryTree.postOrder();
+//        System.out.println("前序遍历");
+//        binaryTree.preOrder();
+//
+//        System.out.println("中序遍历");
+//        binaryTree.infixOrder();
+//
+//        System.out.println("后序遍历");
+//        binaryTree.postOrder();
 
 
         //后序遍历查找
-        System.out.println("后序遍历方式！！！");
-        HeroNode_Find resNode = binaryTree.postSearch(5);
-        if (resNode != null) {
-            System.out.println("找到了，信息为"+resNode);
-        }else {
-            System.out.println("空");
-        }
+//        System.out.println("后序遍历方式！！！");
+//        HeroNode_Find resNode = binaryTree.postSearch(5);
+//        if (resNode != null) {
+//            System.out.println("找到了，信息为" + resNode);
+//        } else {
+//            System.out.println("空");
+//        }
 
+        binaryTree.preOrder();
+        binaryTree.delNode(5);
+        System.out.println("删除后");
+        binaryTree.preOrder();
     }
 
 
